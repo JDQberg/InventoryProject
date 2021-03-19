@@ -1,14 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Model;
 
-/**
- *
- * @author TheQcrew
- */
+/*
+* Parent class for a generic part.
+* Inhouse and Outsourced Parts extend this class
+* to introduce polymorphism
+*/
+
 public abstract class Part {
     private int id, stock, min, max;
     private String name;
