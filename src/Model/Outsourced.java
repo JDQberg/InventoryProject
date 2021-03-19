@@ -3,6 +3,8 @@ package Model;
 
 /*
  * Uses polymorphism to extend a generic Part
+ * which add an attribute called company name meant
+ * to track which company provided the Outsourced part.
  */
 
 public class Outsourced extends Part {
