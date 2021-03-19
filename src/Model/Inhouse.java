@@ -3,6 +3,9 @@ package Model;
 
 /*
  * Uses polymorphism to extend a generic Part
+ * which add an attribute called machine Id meant
+ * to track which machine the Inhouse part was 
+ * produced with.
  */
 
 public class Inhouse extends Part {
